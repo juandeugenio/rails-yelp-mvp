@@ -1,0 +1,7 @@
+<h1>review</h1>
+  <%= simple <%= form_for @restaurant, @review do |f| %>
+    <%= f.input :content %>
+    <%= f.submit %> 
+  <!-- form_for @object, html: { multipart: true }, do |f| -->
+  <!-- form_for @object, html: { class: "classname" }, do |f| -->  
+<% end %>
